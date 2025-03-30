@@ -1,5 +1,4 @@
 <script setup>
-import ProceedButton from "@/components/buttons/ProceedButton.vue";
 
 defineProps({
   msg: {
@@ -13,13 +12,8 @@ defineProps({
   <div class="greetings">
     <h1>{{ msg }}</h1>
     <h3>
-      <br>
       Welcome! To get started, make sure you have music locally stored.
-      Consider visiting my portfolio to see my other works!
-      <br>
-      <br>
-      <a href="https://matthew-sporman.github.io" target="_blank" rel="noopener">Portfolio Here!</a>
-      <ProceedButton />
+      Consider visiting my <a href = "https://matthew-sporman.github.io"  target="_blank" rel="noopener noreferrer">portfolio</a> to see my other works!
     </h3>
   </div>
 </template>
@@ -46,6 +40,7 @@ h3 {
 .greetings h1,
 .greetings h3 {
   text-align: center;
+  padding: 20px;
 }
 
 @media (min-width: 1024px) {

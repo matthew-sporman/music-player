@@ -1,6 +1,8 @@
 <script setup>
 import ToolDescription from './components/ToolDescription.vue'
 import ProductIcon from "@/components/icons/ProductIcon.vue";
+import MediaPlayer from "@/components/MediaPlayer.vue";
+
 </script>
 
 <template>
@@ -11,9 +13,16 @@ import ProductIcon from "@/components/icons/ProductIcon.vue";
       <ProductIcon />
     </div>
   </header>
+
+  <MediaPlayer />
+
 </template>
 
 <style scoped>
+
+.wrapper {
+  margin-top: 125px;
+}
 
 header {
   line-height: 1.5;

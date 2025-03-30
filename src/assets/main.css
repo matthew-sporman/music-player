@@ -12,11 +12,11 @@ a,
   text-decoration: none;
   color: deepskyblue;
   transition: 0.4s;
-  margin: 25px;
+  margin: 7px;
   border: #181818 5px solid;
   background-color: dimgray;
   border-radius: 25px;
-  padding: 25px;
+  padding: 12px;
   display: inline-block;
 }
 
@@ -28,13 +28,12 @@ a,
 
 @media (min-width: 1024px) {
   body {
-    display: flex;
+    display: block;
     place-items: center;
   }
 
   #app {
-    display: flex;
-    grid-template-columns: 1fr 1fr;
+    display: block;
     padding: 0 2rem;
     margin: 100px auto;
   }
