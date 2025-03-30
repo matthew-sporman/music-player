@@ -8,16 +8,21 @@
 }
 
 a,
-.green {
+.blue {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
+  color: deepskyblue;
   transition: 0.4s;
-  padding: 3px;
+  margin: 25px;
+  border: #181818 5px solid;
+  background-color: dimgray;
+  border-radius: 25px;
+  padding: 25px;
+  display: inline-block;
 }
 
 @media (hover: hover) {
   a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
+    background-color: darkgray;
   }
 }
 
@@ -28,8 +33,9 @@ a,
   }
 
   #app {
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
+    margin: 100px auto;
   }
 }
