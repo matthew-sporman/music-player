@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <img class="MainIcon" src="C:\Users\matth\OneDrive\Documents\GitHub\music_player\src\assets\sound-waves.png"/>
+  <img class="MainIcon" src="C:\Users\matth\OneDrive\Documents\GitHub\music-player\src\assets\sound-waves.png"/>
 </template>
 
 <style scoped>
